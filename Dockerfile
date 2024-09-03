@@ -6,7 +6,7 @@ RUN pacman -S --needed git wget base-devel --noconfirm
 RUN wget https://github.com/Jguer/yay/releases/download/v12.3.5/yay_12.3.5_x86_64.tar.gz
 RUN tar -xf ./yay_12.3.5_x86_64.tar.gz
 RUN mv ./yay_12.3.5_x86_64/yay /usr/bin/build-yay
-# Root DANGEROUS BLAH BLAH BLAH
+# Root DANGEROUS BLAH BLAH BLAH xD
 RUN useradd builduser -m
 RUN passwd -d builduser
 RUN printf 'builduser ALL=(ALL) ALL\n' | tee -a /etc/sudoers
