@@ -1,5 +1,5 @@
 # We just want archlinux with an aur helper already included
-# Bump for rebuild on 27/11/2024 18:17 UTC +3
+# Bump for rebuild on 10/04/2025 18:17 UTC +3
 FROM archlinux:latest
 RUN pacman -Syu --noconfirm
 RUN pacman -S --needed git wget base-devel --noconfirm
