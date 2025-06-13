@@ -3,9 +3,9 @@
 FROM archlinux:latest
 RUN pacman -Syu --noconfirm
 RUN pacman -S --needed git wget base-devel --noconfirm
-RUN wget https://github.com/Jguer/yay/releases/download/v12.4.2/yay_12.4.2_x86_64.tar.gz
-RUN tar -xf ./yay_12.4.2_x86_64.tar.gz
-RUN mv ./yay_12.4.2_x86_64/yay /usr/bin/build-yay
+RUN wget https://github.com/Jguer/yay/releases/download/v12.5.0/yay_12.5.0_x86_64.tar.gz -O yay.tar.gz
+RUN tar -xf ./yay.tar.gz
+RUN mv ./yay/yay /usr/bin/build-yay
 # Root DANGEROUS BLAH BLAH BLAH xD
 RUN useradd builduser -m
 RUN passwd -d builduser
