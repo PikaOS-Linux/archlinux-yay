@@ -1,7 +1,7 @@
 # We just want archlinux with an aur helper already included
 # Bump for rebuild on 10/04/2025 18:17 UTC +3
 FROM archlinux:latest
-ARG YAY_VERSION=12.5.0
+ARG YAY_VERSION=12.5.7
 ARG YAY_ARCH=x86_64
 
 RUN pacman -Syu --noconfirm
