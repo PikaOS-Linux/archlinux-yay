@@ -1,5 +1,5 @@
 # We just want archlinux with an aur helper already included
-# Bump for rebuild on 10/04/2025 18:17 UTC +3
+# Bump for rebuild on 10/05/2025 18:17 UTC +3
 FROM archlinux:latest
 ARG YAY_VERSION=13.0.1
 ARG YAY_ARCH=x86_64
